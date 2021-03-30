@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(24, 195, 195);
+}
+header h1 {
+    color: rgb(51, 51, 121);
+}
+#logo {
+    width: 100px;
+    height: 100px;
+    
+}
+.container {
+    padding-top: 50px;
+}
+.inputs-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.inputs-form input{
+    padding: 10px;
+    margin: 10px;
+}
+#submit {
+    width: 150px;
+    height: 25px;
+    outline: none;
+    background-color: rgb(51, 51, 121);
+    color: cornsilk;
+}
+section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+.tweets{
+    padding: 25px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: darkblue 2px solid;
+    width: 80vw;
+
+}
+.like-retweet-button {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    
+
+}
+.like-retweet-button button{
+    width: 60px;
+    height: 25px;
+    background-color: darkcyan;
+    color: white;
+    outline: none;
+}
+button {
+    cursor: pointer;
+}
+footer{
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(24, 195, 195); 
+    
+    
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 30px;
+        
+}
