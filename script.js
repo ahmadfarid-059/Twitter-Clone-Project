@@ -63,10 +63,10 @@ function createTweet(){
     localStorage.setItem('data', JSON.stringify(tweetsArray))
   
     reTweetButton.addEventListener('click', createTweet);
-    userName.value = ''
-    tweetContent.value = ''
+    
     
   }
+  
   
   
   submitButton.addEventListener('click', createTweet);
